@@ -9,7 +9,7 @@
 
 body {
     height: 100vh;
-    background: url("background.png") no-repeat center / cover;
+    background: url("../images/background.png") no-repeat center / cover;
     padding: 50px 5%;
 }
 
@@ -81,8 +81,8 @@ header {
 .home {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     height: 100%;
-    gap: 50px;
     padding: 50px 5% 0;
     color: #fff;
     animation-delay: 1.5s;
@@ -145,6 +145,10 @@ header {
     background: #fff;
     box-shadow: 0 0 10px #fff;
     color: #333;
+}
+
+.home-img {
+    margin-left: auto;
 }
 
 .home-img .img-box {
